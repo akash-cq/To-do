@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-Manager</title>
+    <link rel="stylesheet" href="toDo.css" />
+    <link rel="icon" href="Screenshot 2024-05-01 193013.png" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <p class="username">Username</p>
+      <i class="fa-solid fa-user" style="color: #000000"></i>
+      <div class="account hide">
+        <p class="logout">Logout</p>
+        <p class="deletA">Delete Account</p>
+      </div>
+    </header>
+    <h1 class="webN">To-Do-Manager</h1>
+    <div class="container-2">
+      <div class="left">
+        <h3>You have to doing following task.</h3>
+        <ul></ul>
+      </div>
+      <div class="right">
+        <h2 class="input-msg">Write Your Task:</h2>
+        <div class="input-c">
+          <input
+            type="text"
+            id="input"
+            class="inp"
+            placeholder="write your task here..."
+          />
+         <i class="fa-solid fa-2x add fa-plus"></i>
+        </div>
+        <img
+          src="https://media1.tenor.com/m/adNy2LB2V9cAAAAC/to-do-list-check-list.gif"
+          height="180px"
+        />
+      </div>
+    </div>
+    <script src="toDo.js"></script>
+  </body>
+</html>
